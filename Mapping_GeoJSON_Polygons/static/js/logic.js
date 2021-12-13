@@ -183,7 +183,7 @@ L.geoJson(data
   , {
       onEachFeature: function(feature, layer) {
           style : myStyle
-          console.log(layer);
+          // console.log(layer);
           layer.bindPopup("<h3> Neighborhood: " + feature.properties.AREA_NAME + 
           // "</h3> <hr><h3> Airport name: "
           //      + feature.properties.name + 
